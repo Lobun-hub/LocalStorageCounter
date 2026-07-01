@@ -37,7 +37,7 @@ function saveCount() {
 function loadCount() {
   let saved = localStorage.getItem("count");
   if (saved !== null) {
-    count = Numer(saved);
+    count = Number(saved);
   }
   updateCount();
 }
