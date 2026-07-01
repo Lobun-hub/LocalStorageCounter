@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Local Counter</title>
 </head>
 <body>
   <h2>Counter</h2>
   <p id="count" style="font-size:40px;">0</p>
 
-  <button onclick="increaseCount()">+</button>
-  <button onclick="decreaseCount()">-</button>
+  <button onclick="increaseCount()" id="btn1">+</button>
+  <button onclick="decreaseCount()" id="btn2">-</button>
   <button onclick="resetCount()">Reset</button>
   <button onclick="saveCount()">Save</button>
   <button onclick="loadCount()">Load</button>

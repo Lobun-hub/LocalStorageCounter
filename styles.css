@@ -1,0 +1,27 @@
+* {
+  margin: 0px, 0px;
+  padding: auto;
+}
+body {
+  background-color: aquamarine;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: x-large;
+  text-align: center;
+}
+button {
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+  margin: 4px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+
+}
