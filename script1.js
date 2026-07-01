@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function (){
+
 let count = 0;
 
 
@@ -43,7 +45,8 @@ function loadCount(){
     count = Number(saved);
   }
   updateCount();
-};
+}
+});
 
 
 
